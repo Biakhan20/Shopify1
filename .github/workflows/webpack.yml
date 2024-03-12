@@ -1,7 +1,7 @@
 name: Wellnesse Flow
 on:
  schedule:
-  - cron: '45 13 * * *'
+  - cron: '55 13 * * *'
 jobs:
   build:
     runs-on: macos-latest
