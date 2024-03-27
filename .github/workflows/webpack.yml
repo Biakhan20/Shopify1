@@ -16,5 +16,5 @@ jobs:
        node-version: '18.x'
     - name: Build
       run: |
-       ./node_modules/.bin/cypress install
+       ../cypress/bin/cypress install
         npx run test
